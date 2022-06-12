@@ -1,0 +1,35 @@
+.menu{
+    display: flex;
+    
+}
+
+.logo{
+   height: 5vh;
+   margin-left: 9vw;
+}
+
+.list{
+    color: aliceblue;
+    height: 5vh;
+    margin-top: 1vh;
+}
+
+li{
+    display: inline; 
+    margin-left: 2vw;
+}
+.new{
+    background-color: #0176d5;
+    padding: 3px;
+    border-radius: 12px;
+}
+
+.btn{
+    text-align: center;
+    margin-left: 2vw;
+    height: 6vh;
+    width: 6vw;
+    background-color: transparent;
+    color: aliceblue;
+    border: solid 1px aliceblue;
+}
