@@ -1,6 +1,6 @@
 .menu{
     display: flex;
-    
+    z-index: 2;
 }
 
 .logo{
@@ -18,11 +18,18 @@ li{
     display: inline; 
     margin-left: 2vw;
 }
+li:hover{
+    background-color: #43566e;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
 .new{
     background-color: #0176d5;
     padding: 3px;
     border-radius: 12px;
 }
+
+/* wxs */
 
 .btn{
     text-align: center;
@@ -32,4 +39,16 @@ li{
     background-color: transparent;
     color: aliceblue;
     border: solid 1px aliceblue;
+}
+
+.drop{
+    position: absolute;
+    top: 14vh;
+    right: 15vh;
+    height: 60vh;
+    width: 84vw;
+    background-color: white;
+    color: black;
+    padding-left: 1px;
+    z-index: 2;
 }

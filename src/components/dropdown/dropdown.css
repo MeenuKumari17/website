@@ -1,0 +1,27 @@
+
+
+
+.name{
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    margin-top: 3vh;
+}
+
+hr{
+    margin-top: 1vh;
+}
+
+.desc{
+    display: inline-block;
+    width: 20vw;
+    margin-bottom: 3vh;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    color: blue;
+    width: 20vw;
+}
+
