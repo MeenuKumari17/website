@@ -16,7 +16,7 @@ const Menu = () => {
     return (
         <>
         <div className='menu'>
-            <img className='logo' src={logo} alt="image" />
+            <img className='logo' src={logo} alt="mylogo" />
                 <ul className='list' >
                     <li style={{backgroundColor: "#7abf02", padding: "3px", borderRadius: "2px"}}>Price & Access</li>
                     <li>Statistics</li>
